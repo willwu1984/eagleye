@@ -19,7 +19,7 @@ Installation
 **Configuration**
 
 1. add the following lines in the file WEB-INF/web.xml
- 
+
 
     <filter>
       <filter-name>monitor</filter-name>
@@ -31,6 +31,7 @@ Installation
     </filter-mapping>
 
 2. add the following line into your application context in the file WEB-INF/server.xml.Test in follow is your application name.
+
 
     <Context docBase="test" path="/test">
       <Loader loaderClass="eagleye.extension.tomcat.WebappClassLoader"/>
