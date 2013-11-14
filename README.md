@@ -30,6 +30,7 @@ Installation
       <url-pattern>*.action</url-pattern>
     </filter-mapping>
 
+
 2. add the following line into your application context in the file WEB-INF/server.xml.Test in follow is your application name.
 
 
