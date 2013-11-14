@@ -3,6 +3,7 @@ eagleye
 
 Eagleye is a simple tool that can monitor Java EE application servers in QA and production environments. 
 It is implemented by injecting monitor bytes code to application.Currently it can collect the following infomation:
+
 1. memory info
 2. GC info
 3. c3p0 info
