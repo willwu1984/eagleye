@@ -18,7 +18,7 @@ Installation
 
 **Configuration**
 
-1. add the following lines in the file WEB-INF/web.xml
+1.add the following lines in the file WEB-INF/web.xml
 
 ```xml
     <filter>
@@ -31,7 +31,7 @@ Installation
     </filter-mapping>
 ```
 
-2. add the following line into your application context in the file WEB-INF/server.xml.
+2.add the following line into your application context in the file WEB-INF/server.xml.
 
 ```xml
     <Context docBase="test" path="/test">
