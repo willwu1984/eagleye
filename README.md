@@ -36,4 +36,4 @@ Installation
 How can you get the monitor infomations??
 -----------------------
 A monitor URI(/monitor/monitorInfo.action) is created if you installed. You can view the infomation by this url such as
-[http://localhost:8080/test/monitor/monitorInfo.action]http://localhost:8080/test/monitor/monitorInfo.action
+[http://localhost:8080/test/monitor/monitorInfo.action](http://localhost:8080/test/monitor/monitorInfo.action)
