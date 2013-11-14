@@ -13,8 +13,10 @@ Installation
     $ git clone https://github.com/willwu1984/eagleye.git
     $ mvn clean install
     $ mv target/eagleye-0.1.jar ${tomcat_install_path}/lib
+    $ cp src/resources/*.properties ${tomcat_install_path}/lib
 
 **Configuration**
+
 1. add the following lines in the file WEB-INF/web.xml
     <filter>
       <filter-name>monitor</filter-name>
@@ -29,10 +31,9 @@ Installation
     <Context docBase="test" path="/test">
       <Loader loaderClass="eagleye.extension.tomcat.WebappClassLoader"/>
     </Context>
-3. put the default properties files (src/resources/*.properties) to application server's lib path
 
 
 How can you get the monitor infomations??
 -----------------------
 A monitor URI(/monitor/monitorInfo.action) is created if you installed. You can view the infomation by this url such as
-http://localhost:8080/test/monitor/monitorInfo.action
+[http://localhost:8080/test/monitor/monitorInfo.action]http://localhost:8080/test/monitor/monitorInfo.action
