@@ -20,7 +20,7 @@ Installation
 
 1. add the following lines in the file WEB-INF/web.xml
 
-
+```xml
     <filter>
       <filter-name>monitor</filter-name>
       <filter-class>eagleye.output.MonitorFilter</filter-class>
@@ -29,15 +29,15 @@ Installation
       <filter-name>monitor</filter-name>
       <url-pattern>*.action</url-pattern>
     </filter-mapping>
+```
 
+2. add the following line into your application context in the file WEB-INF/server.xml.
 
-2. add the following line into your application context in the file WEB-INF/server.xml.Test in follow is your application name.
-
-
+```xml
     <Context docBase="test" path="/test">
       <Loader loaderClass="eagleye.extension.tomcat.WebappClassLoader"/>
     </Context>
-
+```
 
 How can you get the monitor infomations??
 -----------------------
